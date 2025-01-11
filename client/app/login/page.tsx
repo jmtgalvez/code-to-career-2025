@@ -1,5 +1,5 @@
 import { redirect } from 'next/navigation';
-import { FormField } from './components/ui/form';
+import { FormField } from '../components/ui/form';
 import { cookies } from 'next/headers';
 
 export async function login(formData: FormData) {
@@ -9,17 +9,7 @@ export async function login(formData: FormData) {
     password: formData.get('password'),
   };
 
-  console.log(process.env.ADMIN_USER);
-  console.log(process.env.ADMIN_PASSWORD);
-  console.log(
-    credentials.user == process.env.ADMIN_USER &&
-      credentials.password == process.env.ADMIN_PASSWORD,
-  );
-
-  if (
-    credentials.user == process.env.ADMIN_USER &&
-    credentials.password == process.env.ADMIN_PASSWORD
-  ) {
+  if (credentials.user == 'Admin' && credentials.password == '@dm!N2025') {
     const cookieStore = await cookies();
     cookieStore.set('authToken', '123456789');
     return redirect('/homepage');
