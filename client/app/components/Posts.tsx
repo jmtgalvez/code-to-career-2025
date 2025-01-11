@@ -7,12 +7,18 @@ export default function Posts() {
       {posts.map((post, i) => (
         <div
           key={i}
-          className='p-4 border border-black rounded-md grid gap-1'
+          className='p-4 border border-black rounded-md grid gap-1 bg-white/10 hover:bg-white/15 transition-colors'
         >
           <div className='w-100 flex gap-2 items-center justify-between'>
             <h3 className='text-lg font-bold'>@{post.Author}</h3>
             <a
-              href={`/api/${post.Post_ID}`}
+              href={`${
+                post.Platform == 'Twitter'
+                  ? 'https://x.com'
+                  : post.Platform == 'Facebook'
+                  ? 'https://facebook.com'
+                  : '/api'
+              }/${post.Author}`}
               target='_blank'
             >
               {post.Platform == 'Facebook' ? (
@@ -53,7 +59,6 @@ export default function Posts() {
           </div>
           <span className='text-gray-500 text-sm'>{post.Created_At}</span>
           <p className=''>{post.Post_Text}</p>
-          {/* sample link */}
         </div>
       ))}
     </div>

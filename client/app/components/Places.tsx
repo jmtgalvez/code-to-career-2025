@@ -15,7 +15,7 @@ const cities: { [key: string]: ParsedPost[] } = getPlaces();
 
 export default function NetworkStatus() {
   return (
-    <div className='w-full max-w-3xl mx-auto p-4'>
+    <div className='w-full max-w-3xl mx-auto p-4 bg-white/10 rounded-md'>
       <div className='space-y-2'>
         {Object.keys(cities).map((city) => (
           <Collapsible
@@ -26,7 +26,7 @@ export default function NetworkStatus() {
               <div className='flex items-center gap-2'>
                 <ChevronRight className='w-4 h-4 transition-transform duration-200 group-data-[state=open]:rotate-90' />
                 <span className='font-bold'>{city}</span>
-                <span className='inline-flex items-center justify-center w-6 h-6 text-sm rounded-full bg-muted'>
+                <span className='text-lg font-bold inline-flex items-center justify-center w-6 h-6 rounded-full bg-muted'>
                   {city.length}
                 </span>
               </div>
