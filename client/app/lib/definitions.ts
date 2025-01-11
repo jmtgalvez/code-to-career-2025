@@ -17,6 +17,8 @@ export interface SocialMediaPost {
   Post_Text: string;
   Created_At: string;
   Author: string;
+  Location?: string;
+  Issue_Type?: 'Outage_Suspected' | 'Slowdown_Report' | 'Other';
 }
 
 // Parsed Post Types

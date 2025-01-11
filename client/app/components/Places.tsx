@@ -27,7 +27,7 @@ export default function NetworkStatus() {
                 <ChevronRight className='w-4 h-4 transition-transform duration-200 group-data-[state=open]:rotate-90' />
                 <span className='font-bold'>{city}</span>
                 <span className='text-lg font-bold inline-flex items-center justify-center w-6 h-6 rounded-full bg-muted'>
-                  {city.length}
+                  {cities[city].length}
                 </span>
               </div>
             </CollapsibleTrigger>
@@ -46,7 +46,7 @@ export default function NetworkStatus() {
                         {city.Confidence_Score * 100}%
                       </div>
                       <Link
-                        href={`/api/${city.Post_ID}`}
+                        href={`/posts?location=${city.Location}&issueType=${city.Issue_Type}`}
                         className='w-fit p-2 font-bold text-white bg-blue-300 hover:bg-blue-500'
                       >
                         Open

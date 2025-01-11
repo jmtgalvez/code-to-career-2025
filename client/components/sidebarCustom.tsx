@@ -47,7 +47,7 @@ export function SidebarCustom() {
     <>
       {isMobile ? (
         <div className='fixed top-0 left-0 z-50 w-full'>
-          <div className='h-screen fixed flex justify-between items-center p-4 bg-white dark:bg-gray-800'>
+          <div className='lg:h-screen lg:fixed flex justify-between items-center p-4 bg-white dark:bg-gray-800'>
             <Logo />
             <button
               onClick={() => setOpen(!open)}

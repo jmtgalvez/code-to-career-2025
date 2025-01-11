@@ -1,14 +1,18 @@
 import data from '../../data.json';
+import { SocialMediaPost } from '../lib/definitions';
 
-export default function Posts() {
-  const posts = data.Social_Media_Post;
+export default function Posts({ posts }: { posts: SocialMediaPost[] }) {
   return (
-    <div className='grid grid-cols-3 gap-4'>
+    <div className='grid lg:grid-cols-3 gap-4'>
       {posts.map((post, i) => (
         <div
           key={i}
           className='p-4 border border-black rounded-md grid gap-1 bg-white/10 hover:bg-white/15 transition-colors'
         >
+          <p className='flex gap-2 items-center'>
+            <h3 className='text-md font-bold'>{post.Location}</h3>
+            <span className='p-1 text-xs bg-white/50'>{post.Issue_Type}</span>
+          </p>
           <div className='w-100 flex gap-2 items-center justify-between'>
             <h3 className='text-lg font-bold'>@{post.Author}</h3>
             <a
