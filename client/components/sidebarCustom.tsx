@@ -6,8 +6,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { IconArrowLeft, IconHome } from '@tabler/icons-react';
 import { ShieldIcon, Earth, Menu, X } from 'lucide-react';
 import { Sidebar, SidebarBody, SidebarLink } from '@/components/ui/sidebar';
+import { usePathname } from 'next/navigation';
 
 export function SidebarCustom() {
+  const pathName = usePathname()
   const [open, setOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -17,6 +19,11 @@ export function SidebarCustom() {
     window.addEventListener('resize', checkMobile);
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
+
+  if (
+    pathName.startsWith('/') 
+)
+    return <></>
 
   const linksUser = [
     {
