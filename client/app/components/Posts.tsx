@@ -9,10 +9,10 @@ export default function Posts({ posts }: { posts: SocialMediaPost[] }) {
           key={i}
           className='p-4 border border-black rounded-md grid gap-1 bg-white/10 hover:bg-white/15 transition-colors'
         >
-          <p className='flex gap-2 items-center'>
-            <h3 className='text-md font-bold'>{post.Location}</h3>
+          <h3 className='flex gap-2 items-center'>
+            <p className='text-md font-bold'>{post.Location}</p>
             <span className='p-1 text-xs bg-white/50'>{post.Issue_Type}</span>
-          </p>
+          </h3>
           <div className='w-100 flex gap-2 items-center justify-between'>
             <h3 className='text-lg font-bold'>@{post.Author}</h3>
             <a
