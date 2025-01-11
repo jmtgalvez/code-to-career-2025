@@ -14,12 +14,12 @@ import {
 
 function homepage() {
   return (
-    <main className="grid sm:grid-cols-1 md:grid-cols-2 gap-2 items-center justify-center">
+    <main className="grid sm:grid-cols-1 md:grid-cols-2 gap-2 mt-10 items-center justify-center">
        <HoverCard>
             <HoverCardTrigger asChild>
               <Card className="bg-white/10 border-none text-white hover:bg-white/15 transition-colors">
                 <CardHeader className="flex flex-row items-center justify-between pb-2">
-                  <CardTitle className="text-lg font-medium">Places</CardTitle>
+                  <CardTitle className="text-lg font-medium">Places/Cities</CardTitle>
                   <MapPin className="h-5 w-5 text-muted-foreground" />
                 </CardHeader>
                 <CardContent>
@@ -87,7 +87,7 @@ function homepage() {
           <TrendingUp className="h-5 w-5 text-muted-foreground" />
         </CardHeader>
         <CardContent>
-          <div className="space-y-4">
+          <div className="">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <Facebook className="h-5 w-5 text-blue-500" />
