@@ -4,8 +4,11 @@ export default function Posts() {
   const posts = data.Social_Media_Post;
   return (
     <div className='grid grid-cols-3 gap-4'>
-      {posts.map((post) => (
-        <div className='p-4 border border-black rounded-md grid gap-1'>
+      {posts.map((post, i) => (
+        <div
+          key={i}
+          className='p-4 border border-black rounded-md grid gap-1'
+        >
           <div className='w-100 flex gap-2 items-center justify-between'>
             <h3 className='text-lg font-bold'>@{post.Author}</h3>
             <a
