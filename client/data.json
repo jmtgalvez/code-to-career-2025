@@ -1,0 +1,405 @@
+{
+    "Social_Media_Post": [
+    {
+      "Post_ID": 1,
+      "Platform": "Facebook",
+      "Post_Text": "Internet down again in Makati! #Globe #internetproblems",
+      "Created_At": "2023-10-26 8:00:00",
+      "Author": "user123"
+    },
+    {
+      "Post_ID": 2,
+      "Platform": "Twitter",
+      "Post_Text": "@Globe My connection in Quezon City has been unstable all morning.  Can't even load a webpage!",
+      "Created_At": "2023-10-26 8:15:00",
+      "Author": "JuanDelaCruz"
+    },
+    {
+      "Post_ID": 3,
+      "Platform": "Facebook",
+      "Post_Text": "Anyone else having trouble with Globe in Pasig? Super slow internet!",
+      "Created_At": "2023-10-26 9:00:00",
+      "Author": "MariaClara"
+    },
+    {
+      "Post_ID": 4,
+      "Platform": "Twitter",
+      "Post_Text": "Is Globe having an outage in Cebu? My internet is down.",
+      "Created_At": "2023-10-26 9:30:00",
+      "Author": "CebuCitizen"
+    },
+    {
+      "Post_ID": 5,
+      "Platform": "Facebook",
+      "Post_Text": "Internet is crawling in Manila today. Thanks, Globe 🙄",
+      "Created_At": "2023-10-26 10:00:00",
+      "Author": "ManilaResident"
+    },
+    {
+      "Post_ID": 6,
+      "Platform": "Twitter",
+      "Post_Text": "@Globe please fix the internet in Davao! It's been down for an hour!",
+      "Created_At": "2023-10-26 10:30:00",
+      "Author": "DavaoDude"
+    },
+    {
+      "Post_ID": 7,
+      "Platform": "Facebook",
+      "Post_Text": "Having trouble streaming in Taguig. Is Globe down?",
+      "Created_At": "2023-10-27 8:00:00",
+      "Author": "moviebuff"
+    },
+    {
+      "Post_ID": 8,
+      "Platform": "Twitter",
+      "Post_Text": "@Globe internet is down in Pasay! Please advise.",
+      "Created_At": "2023-10-27 9:00:00",
+      "Author": "PasayUser"
+    },
+    {
+      "Post_ID": 9,
+      "Platform": "Facebook",
+      "Post_Text": "Another day, another Globe outage in Makati. 😤",
+      "Created_At": "2023-10-27 10:00:00",
+      "Author": "frustrateduser"
+    },
+    {
+      "Post_ID": 10,
+      "Platform": "Twitter",
+      "Post_Text": "Internet is spotty in Quezon City.  @Globe what's going on?",
+      "Created_At": "2023-10-27 11:00:00",
+      "Author": "QC_Resident"
+    },
+    {
+      "Post_ID": 11,
+      "Platform": "Facebook",
+      "Post_Text": "Can't get online in Cebu. Is it just me or is Globe down?",
+      "Created_At": "2023-10-28 8:00:00",
+      "Author": "cebuana"
+    },
+    {
+      "Post_ID": 12,
+      "Platform": "Twitter",
+      "Post_Text": "@Globe any updates on the outage in Davao?",
+      "Created_At": "2023-10-28 9:00:00",
+      "Author": "DavaoGamer"
+    },
+    {
+      "Post_ID": 13,
+      "Platform": "Facebook",
+      "Post_Text": "Internet is back in Taguig! Thanks, Globe!",
+      "Created_At": "2023-10-28 10:00:00",
+      "Author": "happycustomer"
+    },
+    {
+      "Post_ID": 14,
+      "Platform": "Twitter",
+      "Post_Text": "Still no internet in Pasay. @Globe this is getting ridiculous.",
+      "Created_At": "2023-10-28 11:00:00",
+      "Author": "PasayBusiness"
+    },
+    {
+      "Post_ID": 15,
+      "Platform": "Facebook",
+      "Post_Text": "Finally! Internet is working again in Makati. #Globe",
+      "Created_At": "2023-10-29 8:00:00",
+      "Author": "relieved"
+    },
+    {
+      "Post_ID": 16,
+      "Platform": "Twitter",
+      "Post_Text": "Internet seems to be stable now in Quezon City.  @Globe",
+      "Created_At": "2023-10-29 9:00:00",
+      "Author": "online_shopper"
+    },
+    {
+      "Post_ID": 17,
+      "Platform": "Facebook",
+      "Post_Text": "Anyone else experiencing slow internet in Cebu? #Globe",
+      "Created_At": "2023-10-29 10:00:00",
+      "Author": "cebu_foodie"
+    },
+    {
+      "Post_ID": 18,
+      "Platform": "Twitter",
+      "Post_Text": "@Globe internet is down again in Davao! This is the third time this week!",
+      "Created_At": "2023-10-29 11:00:00",
+      "Author": "davao_student"
+    },
+    {
+      "Post_ID": 19,
+      "Platform": "Facebook",
+      "Post_Text": "Having trouble connecting to the internet in Taguig. @Globe please help!",
+      "Created_At": "2023-10-30 8:00:00",
+      "Author": "taguig_resident"
+    },
+    {
+      "Post_ID": 20,
+      "Platform": "Twitter",
+      "Post_Text": "Internet is out in Pasay. @Globe is there an estimated time of restoration?",
+      "Created_At": "2023-10-30 9:00:00",
+      "Author": "pasay_local"
+    }
+  ], 
+    "Parsed_Post": [
+    {
+      "Post_ID": 1,
+      "Location": "Makati",
+      "Issue_Type": "Outage_Suspected",
+      "Confidence_Score": 0.9
+    },
+    {
+      "Post_ID": 2,
+      "Location": "Quezon City",
+      "Issue_Type": "Slowdown_Report",
+      "Confidence_Score": 0.7
+    },
+    {
+      "Post_ID": 3,
+      "Location": "Pasig",
+      "Issue_Type": "Slowdown_Report",
+      "Confidence_Score": 0.8
+    },
+    {
+      "Post_ID": 4,
+      "Location": "Cebu",
+      "Issue_Type": "Outage_Suspected",
+      "Confidence_Score": 0.95
+    },
+    {
+      "Post_ID": 5,
+      "Location": "Manila",
+      "Issue_Type": "Slowdown_Report",
+      "Confidence_Score": 0.6
+    },
+    {
+      "Post_ID": 6,
+      "Location": "Davao",
+      "Issue_Type": "Outage_Suspected",
+      "Confidence_Score": 0.9
+    },
+    {
+      "Post_ID": 7,
+      "Location": "Taguig",
+      "Issue_Type": "Outage_Suspected",
+      "Confidence_Score": 0.7
+    },
+    {
+      "Post_ID": 8,
+      "Location": "Pasay",
+      "Issue_Type": "Outage_Suspected",
+      "Confidence_Score": 0.9
+    },
+    {
+      "Post_ID": 9,
+      "Location": "Makati",
+      "Issue_Type": "Outage_Suspected",
+      "Confidence_Score": 0.85
+    },
+    {
+      "Post_ID": 10,
+      "Location": "Quezon City",
+      "Issue_Type": "Slowdown_Report",
+      "Confidence_Score": 0.65
+    },
+    {
+      "Post_ID": 11,
+      "Location": "Cebu",
+      "Issue_Type": "Outage_Suspected",
+      "Confidence_Score": 0.9
+    },
+    {
+      "Post_ID": 12,
+      "Location": "Davao",
+      "Issue_Type": "Outage_Suspected",
+      "Confidence_Score": 0.8
+    },
+    {
+      "Post_ID": 13,
+      "Location": "Taguig",
+      "Issue_Type": "Other",
+      "Confidence_Score": 0.5
+    },
+    {
+      "Post_ID": 14,
+      "Location": "Pasay",
+      "Issue_Type": "Outage_Suspected",
+      "Confidence_Score": 0.9
+    },
+    {
+      "Post_ID": 15,
+      "Location": "Makati",
+      "Issue_Type": "Other",
+      "Confidence_Score": 0.4
+    },
+    {
+      "Post_ID": 16,
+      "Location": "Quezon City",
+      "Issue_Type": "Other",
+      "Confidence_Score": 0.5
+    },
+    {
+      "Post_ID": 17,
+      "Location": "Cebu",
+      "Issue_Type": "Slowdown_Report",
+      "Confidence_Score": 0.75
+    },
+    {
+      "Post_ID": 18,
+      "Location": "Davao",
+      "Issue_Type": "Outage_Suspected",
+      "Confidence_Score": 0.95
+    },
+    {
+      "Post_ID": 19,
+      "Location": "Taguig",
+      "Issue_Type": "Outage_Suspected",
+      "Confidence_Score": 0.8
+    },
+    {
+      "Post_ID": 20,
+      "Location": "Pasay",
+      "Issue_Type": "Outage_Suspected",
+      "Confidence_Score": 0.9
+    }
+  ],
+  "Alert": [
+    {
+      "Alert_ID": 1,
+      "Generated_At": "2023-10-26 8:05:00",
+      "Location": "Makati",
+      "Alert_Cause": "Social_Media_Post",
+      "Status": "Resolved"
+    },
+    {
+      "Alert_ID": 2,
+      "Generated_At": "2023-10-26 9:35:00",
+      "Location": "Cebu",
+      "Alert_Cause": "Social_Media_Post",
+      "Status": "Resolved"
+    },
+    {
+      "Alert_ID": 3,
+      "Generated_At": "2023-10-26 10:35:00",
+      "Location": "Davao",
+      "Alert_Cause": "Social_Media_Post",
+      "Status": "Resolved"
+    },
+    {
+      "Alert_ID": 4,
+      "Generated_At": "2023-10-27 9:05:00",
+      "Location": "Pasay",
+      "Alert_Cause": "Social_Media_Post",
+      "Status": "Investigating"
+    },
+    {
+      "Alert_ID": 5,
+      "Generated_At": "2023-10-28 9:05:00",
+      "Location": "Davao",
+      "Alert_Cause": "Social_Media_Post",
+      "Status": "Open"
+    }
+  ],
+  "Network_Device":[
+    {
+      "Device_ID": 1,
+      "Location": "Makati",
+      "Current_Status": "Active"
+    },
+    {
+      "Device_ID": 2,
+      "Location": "Quezon City",
+      "Current_Status": "Active"
+    },
+    {
+      "Device_ID": 3,
+      "Location": "Pasig",
+      "Current_Status": "Active"
+    },
+    {
+      "Device_ID": 4,
+      "Location": "Cebu",
+      "Current_Status": "Slowdown"
+    },
+    {
+      "Device_ID": 5,
+      "Location": "Manila",
+      "Current_Status": "Active"
+    },
+    {
+      "Device_ID": 6,
+      "Location": "Davao",
+      "Current_Status": "Down"
+    },
+    {
+      "Device_ID": 7,
+      "Location": "Taguig",
+      "Current_Status": "Active"
+    },
+    {
+      "Device_ID": 8,
+      "Location": "Pasay",
+      "Current_Status": "Down"
+    },
+    {
+      "Device_ID": 9,
+      "Location": "Makati",
+      "Current_Status": "Active"
+    },
+    {
+      "Device_ID": 10,
+      "Location": "Quezon City",
+      "Current_Status": "Active"
+    },
+    {
+      "Device_ID": 11,
+      "Location": "Cebu",
+      "Current_Status": "Active"
+    },
+    {
+      "Device_ID": 12,
+      "Location": "Davao",
+      "Current_Status": "Active"
+    },
+    {
+      "Device_ID": 13,
+      "Location": "Taguig",
+      "Current_Status": "Active"
+    },
+    {
+      "Device_ID": 14,
+      "Location": "Pasay",
+      "Current_Status": "Active"
+    },
+    {
+      "Device_ID": 15,
+      "Location": "Caloocan",
+      "Current_Status": "Active"
+    },
+    {
+      "Device_ID": 16,
+      "Location": "Navotas",
+      "Current_Status": "Active"
+    },
+    {
+      "Device_ID": 17,
+      "Location": "Malabon",
+      "Current_Status": "Active"
+    },
+    {
+      "Device_ID": 18,
+      "Location": "Valenzuela",
+      "Current_Status": "Active"
+    },
+    {
+      "Device_ID": 19,
+      "Location": "Marikina",
+      "Current_Status": "Active"
+    },
+    {
+      "Device_ID": 20,
+      "Location": "Muntinlupa",
+      "Current_Status": "Active"
+    }
+  ]    
+}
