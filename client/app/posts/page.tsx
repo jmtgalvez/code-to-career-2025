@@ -11,7 +11,7 @@ export default function PostsPage() {
   const posts = getPosts(location, issueType);
 
   return (
-    <div className='p-4 lg:p-24'>
+    <div className='p-4 mt-4 lg:p-24'>
       <h1 className='text-xl font-bold'>Posts</h1>
       <Posts posts={posts} />
     </div>

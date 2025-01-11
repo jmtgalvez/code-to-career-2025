@@ -28,7 +28,7 @@ export async function login(formData: FormData) {
 
 export default function LoginPage() {
   return (
-    <div className='w-full h-screen flex items-center justify-center'>
+    <div className='w-full h-screen rounded flex items-center justify-center'>
       <div className='w-96 p-4 bg-white/15 rounded-md'>
         <h1 className='w-full text-center font-bold text-2xl'>Sign in</h1>
         <form
@@ -46,7 +46,7 @@ export default function LoginPage() {
           />
           <button
             type='submit'
-            className='bg-white/50 p-2 font-bold hover:bg-white/70'
+            className='bg-green-500 rounded-lg hover:bg-green-300 p-2 font-bold text-black'
           >
             Login
           </button>
