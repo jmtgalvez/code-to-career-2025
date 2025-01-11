@@ -17,7 +17,7 @@ export function getPlaces() {
 
 export function getPosts(location: string | null, issueType: string | null) {
   const parsedPosts = data.Parsed_Post as ParsedPost[];
-  let rawPosts = (data.Social_Media_Post as SocialMediaPost[]).sort(
+  const rawPosts = (data.Social_Media_Post as SocialMediaPost[]).sort(
     (a, b) => Date.parse(b.Created_At) - Date.parse(a.Created_At),
   );
   const posts = rawPosts.map((post) => {
