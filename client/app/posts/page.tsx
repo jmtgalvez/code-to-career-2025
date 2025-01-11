@@ -3,8 +3,9 @@
 import { useSearchParams } from 'next/navigation';
 import Posts from '../components/Posts';
 import { getPosts } from '../lib/actions';
+import { Suspense } from 'react';
 
-export default function PostsPage() {
+function PostsSuspense() {
   const params = useSearchParams();
   const location = params.get('location');
   const issueType = params.get('issueType');
@@ -15,5 +16,13 @@ export default function PostsPage() {
       <h1 className='text-xl font-bold'>Posts</h1>
       <Posts posts={posts} />
     </div>
+  );
+}
+
+export default function PostsPage() {
+  return (
+    <Suspense>
+      <PostsSuspense />
+    </Suspense>
   );
 }

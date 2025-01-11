@@ -1,4 +1,3 @@
-import data from '../../data.json';
 import { SocialMediaPost } from '../lib/definitions';
 
 export default function Posts({ posts }: { posts: SocialMediaPost[] }) {
