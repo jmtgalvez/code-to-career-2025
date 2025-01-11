@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className={`${inter.className} dark min-h-screen `}>
         <SidebarComponent>
-          <div className="flex justify-center w-full h-screen bg-[#0D0B32]">{children}</div>
+          <div className="p-10 w-full h-screen bg-[#0D0B32]">{children}</div>
         </SidebarComponent>
       </body>
     </html>
